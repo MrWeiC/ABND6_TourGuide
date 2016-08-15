@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_title1">Fun</string>
+    <string name="tab_title2">Sleep</string>
+    <string name="tab_title3">Food</string>
+    <string name="tab_title4">Nearby</string>
 </resources>
