@@ -32,11 +32,11 @@ public class RestaurantFragment extends Fragment {
 
         final ArrayList<Site> sites = new ArrayList<>();
 
-        sites.add(new Site("Bida Manda","222 S Blount St, Raleigh, NC 27601-1408",R.drawable.flip_flops,R.drawable.c7));
-        sites.add(new Site("Neomonde Raleigh Cafe & Market","3817 Beryl Rd, Raleigh, NC 27607-5244",R.drawable.lion_statue,R.drawable.c3));
-        sites.add(new Site("Gonza Tacos y Tequila","7713 Lead Mine Rd Ste 39, Raleigh, NC 27615-4805",R.drawable.cave,R.drawable.c8));
-        sites.add(new Site("Marbles Kids Museum Park","201 E Hargett St",R.drawable.monument,R.drawable.c1));
-        sites.add(new Site("Bad Daddy's Burger Bar","111 Seaboard Ave, Raleigh, NC 27604-1151",R.drawable.eiffel_tower,R.drawable.c6));
+        sites.add(new Site(getString(R.string.R1),getString(R.string.addr1),R.drawable.flip_flops,R.drawable.c7));
+        sites.add(new Site(getString(R.string.R2),getString(R.string.addr2),R.drawable.lion_statue,R.drawable.c3));
+        sites.add(new Site(getString(R.string.R3),getString(R.string.addr3),R.drawable.cave,R.drawable.c8));
+        sites.add(new Site(getString(R.string.R4),getString(R.string.addr4),R.drawable.monument,R.drawable.c1));
+        sites.add(new Site(getString(R.string.R5),getString(R.string.addr5),R.drawable.eiffel_tower,R.drawable.c6));
 
         //set the adapter the site list
         SitesItemAdapter itemAdapter = new SitesItemAdapter(getActivity(),sites);

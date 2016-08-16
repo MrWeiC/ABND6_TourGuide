@@ -38,7 +38,7 @@ public class CategoryFragmentPageAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new ThingsToDo();
+            return new ThingsToDoFragment();
         } else if (position == 1) {
             return new HotelFrament();
         } else if (position == 2) {

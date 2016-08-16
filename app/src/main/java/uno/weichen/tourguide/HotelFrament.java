@@ -32,10 +32,10 @@ public class HotelFrament extends Fragment {
 
         final ArrayList<Site> sites = new ArrayList<>();
 
-        sites.add(new Site("Hampton Inn & Suites Raleigh Downtown","600 Glenwood Ave, Raleigh",R.drawable.taj_mahal,R.drawable.c4));
-        sites.add(new Site("Hilton Garden Inn Raleigh","3912 Arrow Dr, Raleigh, NC 27612-4657",R.drawable.museum,R.drawable.c7));
-        sites.add(new Site("Hyatt House Raleigh North Hills","160 Park At North Hills St, Raleigh, NC 27609-5766",R.drawable.tent,R.drawable.c6));
-        sites.add(new Site("Fairfield Inn & Suites Raleigh-Durham Airport","10040 Sellona St, Raleigh, NC 27617-8231",R.drawable.equestrian_statue,R.drawable.c8));
+        sites.add(new Site(getString(R.string.h1),getString(R.string.addr_h1),R.drawable.taj_mahal,R.drawable.c4));
+        sites.add(new Site(getString(R.string.h2),getString(R.string.addr_h2),R.drawable.museum,R.drawable.c7));
+        sites.add(new Site(getString(R.string.h3),getString(R.string.addr_h3),R.drawable.tent,R.drawable.c6));
+        sites.add(new Site(getString(R.string.h4),getString(R.string.addr_h4),R.drawable.equestrian_statue,R.drawable.c8));
 
         //set the adapter the site list
         SitesItemAdapter itemAdapter = new SitesItemAdapter(getActivity(),sites);

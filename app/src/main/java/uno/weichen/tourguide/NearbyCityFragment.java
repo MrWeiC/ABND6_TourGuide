@@ -32,11 +32,11 @@ public class NearbyCityFragment extends Fragment {
 
         final ArrayList<Site> sites = new ArrayList<>();
 
-        sites.add(new Site("Garner","N/A",R.drawable.walking_bridge,R.drawable.c9));
-        sites.add(new Site("Chapel Hill","N/A",R.drawable.us_capitol,R.drawable.c4));
-        sites.add(new Site("Cary","N/A",R.drawable.summer,R.drawable.c8));
-        sites.add(new Site("Morrisville","N/A",R.drawable.obelisk,R.drawable.c7));
-        sites.add(new Site("Durhamr","N/A",R.drawable.sea_waves,R.drawable.c4));
+        sites.add(new Site(getString(R.string.city1),getString(R.string.NA),R.drawable.walking_bridge,R.drawable.c9));
+        sites.add(new Site(getString(R.string.city2),getString(R.string.NA),R.drawable.us_capitol,R.drawable.c4));
+        sites.add(new Site(getString(R.string.city3),getString(R.string.NA),R.drawable.summer,R.drawable.c8));
+        sites.add(new Site(getString(R.string.city4),getString(R.string.NA),R.drawable.obelisk,R.drawable.c7));
+        sites.add(new Site(getString(R.string.city5),getString(R.string.NA),R.drawable.sea_waves,R.drawable.c4));
 
         //set the adapter the site list
         SitesItemAdapter itemAdapter = new SitesItemAdapter(getActivity(),sites);
