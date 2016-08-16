@@ -8,6 +8,13 @@
     tools:context="uno.weichen.tourguide.MainActivity"
     android:orientation="vertical">
 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
     <!--Tab View to display "Things to do , Restaurant, Hotels, Nearby City" -->
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"

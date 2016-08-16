@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TourGuide</string>
+    <string name="app_name">Welcom to Raleigh, NC</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -7,4 +7,6 @@
     <string name="tab_title2">Sleep</string>
     <string name="tab_title3">Food</string>
     <string name="tab_title4">Nearby</string>
+    <string name="Address">"Address: %1$s"</string>
+    <string name="Welcome">It\'s a nice city to visit!</string>
 </resources>

@@ -34,8 +34,11 @@ public class SitesItemAdapter extends ArrayAdapter<Site> {
         siteName.setText(currentWord.getmName());
 
         TextView siteAddress = (TextView) listItemView.findViewById(R.id.site_address);
-        siteAddress.setText(currentWord.getmAddress());
-
+        if (currentWord.getmAddress().equals(("N/A"))) {
+            siteAddress.setVisibility(View.GONE);
+        } else {
+            siteAddress.setText(currentWord.getmAddress());
+        }
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.site_image);
 
         imageView.setImageResource(currentWord.getmResourceId());
